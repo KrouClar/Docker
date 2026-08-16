@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Uninstall packages 
+sudo apt remove $(dpkg --get-selections docker.io docker-compose docker-doc docker-buildx podman-docker containerd runc | cut -f1)
+
 # Add Docker's official GPG key:
 sudo apt update
 sudo apt install ca-certificates curl

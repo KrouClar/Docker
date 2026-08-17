@@ -51,3 +51,7 @@ Once the installation is complete, the administration interface is accessible vi
  * URL: https://<YOUR_SERVER_IP>:9443
 
 Note: Accept the security warning related to the self-signed certificate upon your first login. You will be prompted to create your admin credentials.
+
+## 🛠️ Troubleshooting
+ * Cannot access the web interface? Ensure that port 9443 is allowed through your firewall (e.g., sudo ufw allow 9443/tcp).
+ * Check container status: Run sudo docker ps to verify if the Portainer container is actively running.

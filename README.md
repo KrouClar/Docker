@@ -27,3 +27,27 @@ This repository contains shell scripts to automate the installation of the Docke
 ```bash
 git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
 cd your-repo
+```
+### 2. Install Docker
+The installation is based on the official Docker documentation (https://docs.docker.com/engine/install/debian/). 
+
+Make the script executable and run it:
+```bash
+chmod +x docker_installation_script.sh
+sudo ./docker_installation_script.sh
+```
+
+### 3. Deploy Portainer CE
+The container is deployed according to the official Portainer documentation (https://docs.portainer.io/start/install-ce/server/docker/linux#docker-run).
+
+Make the script executable and run it:
+```bash
+chmod +x container_portainer.sh
+sudo ./container_portainer.sh
+```
+## 🌐 Web Interface Access
+Once the installation is complete, the administration interface is accessible via a web browser:
+ 
+ * URL: https://<YOUR_SERVER_IP>:9443
+
+Note: Accept the security warning related to the self-signed certificate upon your first login. You will be prompted to create your admin credentials.

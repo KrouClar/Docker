@@ -4,19 +4,26 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Portainer](https://img.shields.io/badge/Portainer-13BEF9?style=for-the-badge&logo=Portainer&logoColor=white)
 
-Installation scripts to quickly set up a Docker environment and its Portainer management interface on a Debian server.
+A quick and automated way to deploy Docker and Portainer Community Edition on a Debian server.
+
+## 📖 Description
+
+This repository contains shell scripts to automate the installation of the Docker Engine and the deployment of the Portainer container. It provides a ready-to-use environment for managing your containers via a web interface.
+
+## 📂 Repository Structure
+
+* `docker_installation_script.sh` : Automates the Docker Engine installation.
+* `container_portainer.sh` : Pulls and runs the Portainer CE container.
 
 ## 📋 Prerequisites
 
-* A **Debian** server
-* `root` privileges or a user with `sudo` access
+* A **Debian** server.
+* `root` privileges or a user with `sudo` access.
+* An active internet connection.
 
-## 🚀 Installation
+## 🚀 Installation & Usage
 
-### 1. Install Docker
-The installation is based on the [official Docker documentation](https://docs.docker.com/engine/install/debian/).
-
-Make the script executable and run it:
+### 1. Clone the repository
 ```bash
-chmod +x docker_installation_script.sh
-sudo ./docker_installation_script.sh
+git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
+cd your-repo

@@ -1,17 +1,22 @@
-# Docker
-The following steps explain how to install Docker and Portainer on a Debian server using the APT installer
+# 🐳 Déploiement Docker & Portainer
 
-1) Docker
-Source: 
-https://docs.docker.com/engine/install/debian/
+![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Portainer](https://img.shields.io/badge/Portainer-13BEF9?style=for-the-badge&logo=Portainer&logoColor=white)
 
-First, run the script "docker_installation_script.sh".
+Scripts d'installation pour configurer rapidement un environnement Docker et son interface de gestion Portainer sur un serveur Debian.
 
-2) Portainer
-Source :
-https://docs.portainer.io/start/install-ce/server/docker/linux#docker-run
+## 📋 Prérequis
 
-Then, run the script "container_portainer.sh".
+* Un serveur sous **Debian**
+* Privilèges `root` ou un utilisateur avec accès `sudo`
 
+## 🚀 Installation
 
-Once the script has been executed. If everything went well, you can access Portainer via your server’s IP and the Portainer port.
+### 1. Installer Docker
+L'installation repose sur la [documentation officielle de Docker](https://docs.docker.com/engine/install/debian/).
+
+Rends le script exécutable et lance-le :
+```bash
+chmod +x docker_installation_script.sh
+sudo ./docker_installation_script.sh

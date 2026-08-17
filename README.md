@@ -25,8 +25,8 @@ This repository contains shell scripts to automate the installation of the Docke
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
-cd your-repo
+git clone git clone https://github.com/KrouClar/Docker.git
+cd Docker
 ```
 ### 2. Install Docker
 The installation is based on the official Docker documentation (https://docs.docker.com/engine/install/debian/). 

@@ -8,6 +8,10 @@ https://docs.docker.com/engine/install/debian/
 First, run the script "docker_installation_script.sh".
 
 2) Portainer
+Source :
+https://docs.portainer.io/start/install-ce/server/docker/linux#docker-run
+
 Then, run the script "container_portainer.sh".
+
 
 Once the script has been executed. If everything went well, you can access Portainer via your server’s IP and the Portainer port.

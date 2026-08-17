@@ -55,3 +55,4 @@ Note: Accept the security warning related to the self-signed certificate upon yo
 ## 🛠️ Troubleshooting
  * Cannot access the web interface? Ensure that port 9443 is allowed through your firewall (e.g., sudo ufw allow 9443/tcp).
  * Check container status: Run sudo docker ps to verify if the Portainer container is actively running.
+
